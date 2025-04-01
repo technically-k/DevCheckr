@@ -28,12 +28,6 @@ Whether you're managing a small team or auditing a large Azure Devops and GitHub
   Your PAT is used locally, and no data is sent or stored externally. Perfect for secure environments.
 
 ---
-## 📸 Screenshot
-
-![Alt text for image](images/screenshot.png)
-
-
----
 
 ## 🔧 Requirements
 
@@ -42,24 +36,6 @@ Whether you're managing a small team or auditing a large Azure Devops and GitHub
   - ✅ `repo` scope for publi repository access
   - ✅ `read:org` scope (optional) for scanning org-wide repos
 - Internet access to call the GitHub REST API
-
----
-
-## 🎥 Short Demo
-
-Here’s a **quick demo** of what DevCheckr can do:
-
-1. **Launch the tool**:  
-   Open the DevCheckr app, enter your Azure Devops and GitHub organization or username, and paste your **PAT**.
-
-2. **Run the audit**:  
-   Click "Run Audit", and DevCheckr will fetch and display repository details, activity, and branch info.
-
-3. **View the Summary Report**:  
-   Instantly see a clean, readable summary of your GiAzure Devops and GitHub repositories — total repos, active vs inactive, and last commit date.
-
-4. **Export the results**:  
-   One-click export generates an HTML report that you can share or archive.
 
 ---
 
@@ -83,6 +59,30 @@ Here’s a **quick demo** of what DevCheckr can do:
    ```bash
    python src/devcheckr.py
    ```
+
+---
+
+## 🎥 Usage
+
+Here’s a guide of what DevCheckr can do:
+
+1. **Launch the tool**:  
+   Open the DevCheckr app, enter your Azure Devops and GitHub organization or username, and paste your **PAT**.
+
+2. **Run the audit**:  
+   Click "Run Audit", and DevCheckr will fetch and display repository details, activity, and branch info.
+
+3. **View the Summary Report**:  
+   Instantly see a clean, readable summary of your GiAzure Devops and GitHub repositories — total repos, active vs inactive, and last commit date.
+
+4. **Export the results**:  
+   One-click export generates an HTML report that you can share or archive.
+
+---
+
+## 📸 Screenshot
+
+![Alt text for image](images/screenshot.png)
 
 ---
 

@@ -26,7 +26,7 @@ class DevOpsAuditApp:
     def __init__(self, root):
         self.report_lines = []
         self.root = root
-        self.root.title("DevOps Audit Tool")
+        self.root.title("DevCheckr - DevOps Audit Tool")
         self.root.geometry("920x880")
 
         self.description = ctk.CTkLabel(
